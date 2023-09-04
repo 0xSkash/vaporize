@@ -3,6 +3,8 @@ use clap::Parser;
 use crate::cli::args::{Command, GenerateORMKeysArgs, VaporizeArgs};
 
 mod cli;
+mod generator;
+mod parser;
 
 fn main() {
     let args = VaporizeArgs::parse();
