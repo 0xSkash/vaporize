@@ -13,6 +13,8 @@ fn main() {
         Command::GenerateORMKeys(args) => {
             handle_generate_orm_keys(&args)
         }
+        Command::Make(_) => {}
+        Command::GenerateModelsFromSchema(_) => {}
     }
 }
 
